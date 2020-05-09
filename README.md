@@ -7,9 +7,9 @@ Algoritmos de processamento de autômatos, gramáticas e máquinas de Turing.
 
 Um autômato finito determinístico é uma máquina de estados finita, que aceita ou rejeita cadeias de símbolos, gerando uma única linha de computação para o processamento. 
 
-**(1)** Um autômato possui por um conjunto de estados e transições, que são definidas entre um par de estados cada transição é representada da forma: **(Ea, Sl, Es)**, sendo **Ea** o estado atual, **Sll** o símbolo lido e **Es** o estado seguinte. Autômatos são definidos como determinísticos quando cada estado não possui mais de uma transição para o mesmo símbolo em cada estado.
+**(1)** Um autômato possui por um conjunto de estados e transições, que são definidas entre um par de estados cada transição é representada da forma: **(Ea, Sl, Es)**, sendo **Ea** o estado atual, **Sll** o símbolo lido e **Es** o estado seguinte. Autômatos são definidos como determinísticos quando cada estado não possui mais de uma transição para o mesmo símbolo.
 
-Um autômato termina sua execução caso chegue ao final da cadeia de entrada em um estado não final, caso não haja uma transição para o símbolo lido no estado atual ou caso a cadeia termine e o autômato tenha alcançado um estado final, apenas no último caso a cadeia é aceita.
+Um autômato termina sua execução caso chegue ao final da cadeia de entrada em um estado **não** final, caso não haja uma transição para o símbolo lido no estado atual ou caso a cadeia termine e o autômato tenha alcançado um estado final, apenas no último caso a cadeia é aceita.
 
 Formalmente um autômato pode ser definido pela quíntupla **(Q, Σ, δ, q0, F)**, onde **Q** é o conjunto de estados do autômato, **Σ** é o conjunto de símbolos aceitos (alfabeto), **δ** é o conjunto de transições, **q0** é o estado inicial e **F** é o conjunto de estados finais.
 
